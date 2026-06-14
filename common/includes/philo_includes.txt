@@ -1,0 +1,27 @@
+#ifndef PHILO_INCLUDES_H
+# define PHILO_INCLUDES_H
+
+# ifndef _GNU_SOURCE
+#  define _GNU_SOURCE
+# endif
+
+# define TIMESTAMP_MOD 1000000
+
+# include <unistd.h>
+# include <fcntl.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+# include <sys/time.h>
+# include <sys/wait.h>
+# include <pthread.h>
+# include <stdint.h>
+# include <errno.h>
+# include <stdint.h>
+
+
+#  include <signal.h>
+#  include <semaphore.h>
+# endif
+
+#endif
